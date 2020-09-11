@@ -27,7 +27,7 @@ Resources:
     Properties:
       FunctionName: lambda-web-page
       Handler: index.handler
-      Runtime: nodejs6.10
+      Runtime: nodejs12.x
       Description: API Endpoint connected to lambda function, returns HTML.
       MemorySize: 128
       Timeout: 30
